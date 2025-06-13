@@ -35,7 +35,7 @@ pytest tests_pattern.py
 ---
 
 ## ✅ Пример использования
-
+```
 from pattern.factory import NotificationFactory
 
 factory = NotificationFactory()
@@ -45,3 +45,4 @@ notif.notify("Добро пожаловать!")
 
 notif2 = factory.create_notification("sms")
 notif2.notify("Код подтверждения: 1234")
+```
